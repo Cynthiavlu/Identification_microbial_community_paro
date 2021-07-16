@@ -40,4 +40,13 @@ change line450: -evalue 11 >>> -evalue 1E-40
 
 main2.nf can be found here [main2.nf](https://github.com/Cynthiavlu/Identification_microbial_community_paro/blob/main/NanoCLUST_analysis/main2.nf) 
 
+NanoCLUST was run using: 
+```
+nextflow run main2.nf \
+-profile docker \
+--reads '/home/cynthia/MinION_Runs/20210614_paro_flongle/trimmeddata/BC0*_trimmed.fastq' \
+--db "db/16S_ribosomal_RNA" \
+--tax "db/taxdb/"
+```
+
 
