@@ -18,6 +18,7 @@ MetatONTrack is a part of ONTrack which is still in the experimental phase.
 MetatONTrack takes each read and blasts to the NCBI 16s database. 
 As a result of the blasts, clusters are formed after which the ONTrack script can be used to create a consensus sequence. 
 
+The final analysis was performed using NanoCLUST
 
 # Original sources pipelines 
 * [NanoCLUST original link](https://github.com/genomicsITER/NanoCLUST) 
