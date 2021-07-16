@@ -6,5 +6,5 @@ This research was initiated to develop and optimize a method to measure the leve
 
 Two pipeline were used which were available on github, in our study, settings were changed.
 
-* [NanoCLUST original link] (https://github.com/genomicsITER/NanoCLUST) 
-* [ONTrack original link] (https://github.com/MaestSi/ONTrack) 
+* [NanoCLUST original link](https://github.com/genomicsITER/NanoCLUST) 
+* [ONTrack original link](https://github.com/MaestSi/ONTrack) 
