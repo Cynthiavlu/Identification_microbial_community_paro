@@ -1,9 +1,9 @@
 # Pre-analysis of the MinION data
 ## Table of contents 
 * Installation 
-* NanoPlot 
-* Porechop
-* Fastp (note only for ONTrack)
+* Quality control
+* Adapter trimming 
+
 
 ## Installation 
 
@@ -25,10 +25,7 @@ porechop -h
 conda install -c bioconda fastp
 ```
 
-
-
-
-
+## Quality Control
 
 Data was collected after MinION sequencing. 
 All fastq files were concatenated using a command line command in the local terminal
