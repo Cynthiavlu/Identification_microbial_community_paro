@@ -31,8 +31,11 @@ nextflow run main.nf -profile test,docker
 
 the original main.nf file from NanoCLUST was duplicated as main2.nf
 
+
 SCRIPT change: main2.nf
+
 change line439: -evalue 11 >>> -evalue 1E-40
+
 change line450: -evalue 11 >>> -evalue 1E-40
 
 main2.nf can be found here [main2.nf](
