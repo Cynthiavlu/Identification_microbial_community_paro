@@ -61,9 +61,9 @@ python porechop-runner.py -i /home/user/MinION_Runs/20210614_paro_flongle/rawdat
 after adapter trimming, quality control was repeated.
 
 ## Quality filtering 
-This was only performed for the ONTrack pipeline as fastp is already part of the NanoCLUST pipeline
+This was only performed for the ONTrack pipeline as fastp is already part of the NanoCLUST pipeline.
 
-Fastp was run in a script: 
+Fastp was run in a script [fastp.sh](https://github.com/Cynthiavlu/Identification_microbial_community_paro/blob/main/Pre-analysis/fastp.sh): 
 
 ```
 #!/bin/bash 
