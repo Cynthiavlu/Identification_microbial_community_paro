@@ -1,0 +1,8 @@
+Data was collected after MinION sequencing. 
+All fastq files were concatenated using a command line command in the local terminal
+
+```
+cat /Users/cynthiavanlunteren/Barcode01/*fastq > barcode1.fastq
+```
+
+after concatenating the files. The quality of the data was checked using NanoPlot
