@@ -20,7 +20,7 @@ chmod 755 *
 ./install.sh
 ```
 
-NOTE: there are some variable in the MetatONTrack.sh change this: 
+NOTE: there are some variable in the [MetatONTrack.sh](https://github.com/Cynthiavlu/Identification_microbial_community_paro/blob/main/ONTrack_analysis/MetatONTrack.sh) change this: 
 
 SCRIPT CHANGE: MetatONTrack.sh
 
@@ -43,6 +43,12 @@ Files were renamed to `BC*_qced.fastq`
 seqtk was used to generate the corrosponding fasta files 
 `seqtk seq -A BC0*_qced.fastq > BC0*_qced.fasta`
 
-A script was made to make sure all the files could be analysed: [date_MetatONTrackrun.sh](
+A script was made to make sure all the files could be analysed: [date_MetatONTrackrun.sh](https://github.com/Cynthiavlu/Identification_microbial_community_paro/blob/main/ONTrack_analysis/20210623_MetatONtrackrun.sh)
+
+After ontrack was run. The data was filtered on 0.1% of the total reads and at least 100 reads. 
+A script was used for this filter: [ONTrack_filter.sh](https://github.com/Cynthiavlu/Identification_microbial_community_paro/blob/main/ONTrack_analysis/ONTrack_filter.sh) 
+
+With the remainder of the files, a consensus sequence can be build using ONTrack. 
+In this study, this was not performed. 
 
 
