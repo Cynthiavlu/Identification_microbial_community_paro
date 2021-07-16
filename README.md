@@ -7,9 +7,9 @@ This research was initiated to develop and optimize a method to measure the leve
 Two pipeline were used which were available on github. for our study, some settings were changes. The changed scripts can be found here ..LINK 
 
 # Table of Contents 
-* ## [Pre-analysis](https://github.com/Cynthiavlu/Identification_microbial_community_paro/tree/main/Pre-analysis) 
-* ## [Analysis using NanoCLUST](
-* ## [Analysis using ONTrack](
+* [Pre-analysis](https://github.com/Cynthiavlu/Identification_microbial_community_paro/tree/main/Pre-analysis) 
+* [Analysis using NanoCLUST](https://github.com/Cynthiavlu/Identification_microbial_community_paro/tree/main/NanoCLUST_analysis)
+* [Analysis using ONTrack](https://github.com/Cynthiavlu/Identification_microbial_community_paro/tree/main/ONTrack_analysis)
 
 
 
