@@ -1,8 +1,8 @@
 ONTrack was used during the testing stages of this study where ONTrack was compared to NanoCLUST. 
 
 # Table of contents 
-* installation 
-* analysis
+* Installation 
+* Analysis
 
 
 ## Installation 
