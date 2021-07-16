@@ -9,9 +9,10 @@ This research was initiated to develop and optimize a method to measure the leve
 * [Analysis using NanoCLUST](https://github.com/Cynthiavlu/Identification_microbial_community_paro/tree/main/NanoCLUST_analysis)
 * [Analysis using ONTrack](https://github.com/Cynthiavlu/Identification_microbial_community_paro/tree/main/ONTrack_analysis)
 
-Two pipeline were used which were available on github. for our study, some settings were changes. 
+Two pipeline were used which were available on github. For our study, some settings were changes. 
 
 NanoCLUST is a pipeline which creates clusters based on 5-mers and each read in a cluster is used to create a consensus sequence. 
+
 The consensus sequence is then blasted against the NCBI 16s database for species identification. 
 
 MetatONTrack is a part of ONTrack which is still in the experimental phase. 
