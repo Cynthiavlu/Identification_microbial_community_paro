@@ -12,7 +12,6 @@ This research was initiated to develop and optimize a method to measure the leve
 Two pipeline were used which were available on github. For our study, some settings were changes. 
 
 NanoCLUST is a pipeline which creates clusters based on 5-mers and each read in a cluster is used to create a consensus sequence. 
-
 The consensus sequence is then blasted against the NCBI 16s database for species identification. 
 
 MetatONTrack is a part of ONTrack which is still in the experimental phase. 
@@ -20,6 +19,6 @@ MetatONTrack takes each read and blasts to the NCBI 16s database.
 As a result of the blasts, clusters are formed after which the ONTrack script can be used to create a consensus sequence. 
 
 
-# original source pipelines 
+# Original sources pipelines 
 * [NanoCLUST original link](https://github.com/genomicsITER/NanoCLUST) 
 * [ONTrack original link](https://github.com/MaestSi/ONTrack) 
