@@ -44,7 +44,7 @@ NanoCLUST was run using:
 ```
 nextflow run main2.nf \
 -profile docker \
---reads '/home/cynthia/MinION_Runs/20210614_paro_flongle/trimmeddata/BC0*_trimmed.fastq' \
+--reads '/home/user/MinION_Runs/20210614_paro_flongle/trimmeddata/BC0*_trimmed.fastq' \
 --db "db/16S_ribosomal_RNA" \
 --tax "db/taxdb/"
 ```
