@@ -38,4 +38,6 @@ change line439: -evalue 11 >>> -evalue 1E-40
 
 change line450: -evalue 11 >>> -evalue 1E-40
 
-main2.nf can be found here [main2.nf](
+main2.nf can be found here [main2.nf](https://github.com/Cynthiavlu/Identification_microbial_community_paro/blob/main/NanoCLUST_analysis/main2.nf) 
+
+
