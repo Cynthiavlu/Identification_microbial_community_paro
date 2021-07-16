@@ -6,3 +6,8 @@ cat /Users/cynthiavanlunteren/Barcode01/*fastq > barcode1.fastq
 ```
 
 after concatenating the files. The quality of the data was checked using NanoPlot
+
+#NanoPlot
+'''
+conda install -c bioconda nanoplot
+'''
