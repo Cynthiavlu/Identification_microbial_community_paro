@@ -4,14 +4,19 @@ The elderly community is growing due to increasing life expectancy and an aging 
 
 This research was initiated to develop and optimize a method to measure the level of contamination on Paro and to identify the microbial community. Here are the scripts and commands used in the data analysis.
 
-Two pipeline were used which were available on github. for our study, some settings were changes. The changed scripts can be found here ..LINK 
-
 # Table of Contents 
 * [Pre-analysis](https://github.com/Cynthiavlu/Identification_microbial_community_paro/tree/main/Pre-analysis) 
 * [Analysis using NanoCLUST](https://github.com/Cynthiavlu/Identification_microbial_community_paro/tree/main/NanoCLUST_analysis)
 * [Analysis using ONTrack](https://github.com/Cynthiavlu/Identification_microbial_community_paro/tree/main/ONTrack_analysis)
 
+Two pipeline were used which were available on github. for our study, some settings were changes. 
 
+NanoCLUST is a pipeline which creates clusters based on 5-mers and each read in a cluster is used to create a consensus sequence. 
+The consensus sequence is then blasted against the NCBI 16s database for species identification. 
+
+MetatONTrack80 is a part of ONTrack which is still in the experimental phase. 
+MetatONTrack takes each read and blasts to the NCBI 16s database. 
+As a result of the blasts, clusters are formed after which the ONTrack script can be used to create a consensus sequence. 
 
 
 # original source pipelines 
